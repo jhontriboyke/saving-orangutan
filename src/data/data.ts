@@ -50,17 +50,17 @@ export const ourProjects = [
     {
         image: `\\photos\\project-1.jpg`,
         title: "Summer Program",
-        desc: "Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer"
+        desc: "Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embark on a transformative journey where you'll experience hands-on conservation efforts, habitat preservation initiatives, and wildlife education. Immerse yourself in the lush rainforests of Indonesia, working alongside dedicated experts and local communities to protect orangutans from extinction. Whether you're passionate about wildlife, sustainability, or simply want to make a positive impact, this program offers a unique opportunity to contribute to the preservation of these incredible creatures while creating lasting memories and friendships. Join us this summer and be a force for change in orangutan conservation."
     },
     {
         image: `\\photos\\project-2.jpg`,
         title: "Volunteer",
-        desc: "Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer"
+        desc: "Be a catalyst for change. Join our Volunteer Program to save orangutans. Engage in hands-on conservation, habitat restoration, and education in Indonesia. Work with local experts for real impact. Join our volunteer community and make a difference!."
     },
     {
         image: `\\photos\\project-3.jpg`,
         title: "Mengajar",
-        desc: "Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer Join our Summer Program to be a part of the crucial mission to save the endangered orangutan species. Embar on a transfer"
+        desc: "Our 'Mengajar' program spreads vital insights on orangutan conservation. It's an educational journey for students and the community, blending knowledge, interaction, and action. 'Mengajar' doesn't just raise awareness about orangutan challenges – it sparks positive change through education. Together, we'll delve into forest ecosystems, pinpoint threats, and design steps to secure orangutans' future. With expert guidance and enthusiastic interaction, 'Mengajar' delivers a powerful experience. Be part of this crucial mission to nurture a caring generation, poised to act for nature's preservation and the orangutans' future."
     },
 ]
 

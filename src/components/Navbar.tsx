@@ -7,7 +7,7 @@ import { useState } from 'react';
 const Navbar = () => {
     const [isShowSidebar, setIsShowSidebar] = useState(false);
     return (
-        <div>
+        <div className="sticky top-0 z-10">
             <nav className=" bg-primary-green">
                 <div className="py-3 px-5 flex flex-row items-center justify-between lg:justify-center lg:gap-48">
                     <div

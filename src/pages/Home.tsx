@@ -28,7 +28,7 @@ const Home = () => {
             </header>
             <main className="flex flex-col gap-5">
                 <Section>
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                    <div className="grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 lg:grid-cols-3">
                         {dangerList.map((list, index) => (
                             <div
                                 key={index}
@@ -77,18 +77,18 @@ const Home = () => {
                                 key={index}
                                 className="flex bg-primary-green rounded-sm px-3 py-5 gap-3"
                             >
-                                <div className="min-w-[10rem] md:min-w-[15rem] lg:min-w-[20rem]">
+                                <div className="min-w-[10rem] md:min-w-[15rem] lg:min-w-[30rem]">
                                     <img
                                         className="w-full h-full object-cover"
                                         src={project.image}
                                         alt={project.title}
                                     />
                                 </div>
-                                <div className="flex flex-col gap-1">
-                                    <h3 className="font-playfair text-xl text-primary-yellow font-medium lg:text-3xl">
+                                <div className="flex flex-col gap-1 lg:p-5 lg:justify-center lg:gap-4">
+                                    <h3 className="font-playfair text-xl text-primary-yellow font-medium lg:text-4xl">
                                         {project.title}
                                     </h3>
-                                    <p className="line-clamp-6 text-white text-sm lg:text-base">
+                                    <p className="line-clamp-6 text-white text-sm lg:text-base lg:tracking-wide lg:leading-6">
                                         {project.desc}
                                     </p>
                                 </div>
@@ -107,10 +107,10 @@ const Home = () => {
                                 className="flex gap-3 lg:gap-0 cursor-pointer"
                             >
                                 <div className="flex flex-col gap-1">
-                                    <h3 className="font-playfair text-2xl font-semibold text-primary-black tracking-tight">
+                                    <h3 className="font-playfair text-xl md:text-2xl  font-semibold text-primary-black tracking-tight">
                                         {item.title}
                                     </h3>
-                                    <p className="line-clamp-6 text-base text-primary-black">
+                                    <p className="text-sm line-clamp-6 lg:text-base text-primary-black">
                                         {item.desc}
                                     </p>
                                 </div>
