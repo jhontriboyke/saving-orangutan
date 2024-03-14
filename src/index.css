@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-montserrat;
+}
+
+.container {
+    @apply xl:max-w-[1200px] mx-auto py-8  md:py-12 lg:py-14 px-6 sm:px-8 md:px-10 xl:px-0;
+}
+
+.heading {
+    @apply text-primary-black font-playfair font-semibold text-2xl relative pl-3;
+}
+
+.heading::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    @apply bg-primary-yellow;
+}
