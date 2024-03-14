@@ -1,5 +1,4 @@
 import Button from '../components/Button';
-import Footer from '../components/Footer';
 import { aboutUs, dangerList, news, ourProjects } from '../data/data';
 
 const Home = () => {
@@ -82,13 +81,13 @@ const Home = () => {
                             See more
                         </span>
                     </h2>
-                    <div className="grid gap-6 lg:grid-cols-3 lg:gap-2">
+                    <div className="grid gap-6 lg:gap-2">
                         {ourProjects.map((project, index) => (
                             <div
                                 key={index}
                                 className="flex bg-primary-green rounded-sm px-3 py-5 gap-3"
                             >
-                                <div className="min-w-[10rem] md:min-w-[15rem] lg:min-w-[8rem]">
+                                <div className="min-w-[10rem] md:min-w-[15rem] lg:min-w-[20rem]">
                                     <img
                                         className="w-full h-full object-cover"
                                         src={project.image}
@@ -96,10 +95,10 @@ const Home = () => {
                                     />
                                 </div>
                                 <div className="flex flex-col gap-1">
-                                    <h3 className="font-playfair text-xl text-primary-yellow font-medium">
+                                    <h3 className="font-playfair text-xl text-primary-yellow font-medium lg:text-3xl">
                                         {project.title}
                                     </h3>
-                                    <p className="line-clamp-6 text-white text-sm">
+                                    <p className="line-clamp-6 text-white text-sm lg:text-base">
                                         {project.desc}
                                     </p>
                                 </div>
@@ -146,7 +145,6 @@ const Home = () => {
                     </Button>
                 </section>
             </main>
-            <Footer />
         </>
     );
 };
