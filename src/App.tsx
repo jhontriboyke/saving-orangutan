@@ -3,28 +3,24 @@ import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
+import NotFound404 from './pages/NotFound404';
 
 /*
 TODO
-- Sidebar components
-- Build other pages
-- Define route (react-router-dom)
+- Build About Us page
 */
 
 const App = () => {
     return (
-        <>
+        <div className="flex flex-col min-h-screen">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
-                <Route path="/projects" element={<Home />} />
-                <Route path="/learn" element={<Home />} />
-                <Route path="/news" element={<Home />} />
-                <Route path="/donate" element={<Home />} />
+                <Route path="*" element={<NotFound404 />} />
             </Routes>
             <Footer />
-        </>
+        </div>
     );
 };
 
