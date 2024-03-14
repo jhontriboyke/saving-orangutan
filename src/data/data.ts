@@ -76,3 +76,69 @@ export const news = [
         desc: "Introducing 'Dohop': The Whimsical Teen orangutan Making Waves in Conservation"
     },
 ]
+
+
+export const ourMissions = [
+    {
+        title: "Primary Habitat Protection",
+        color: "text-primary-green",
+        desc: "We are committed to preserving and restoring the natural habitat of orangutans in Kalimantan and Sumatra. Through conservation and restoration efforts, we aim to minimize the impacts of deforestation and restore ecosystem balance. In this way, we provide space for orangutans to thrive and develop in a safe and sustainable environment.",
+    },
+    {
+        title: "Education and Awareness",
+        color: "text-primary-red",
+        desc: "We believe that knowledge is the key to positive change. Through educational programs and awareness campaigns, we seek to engage the community, especially the younger generation, in understanding the urgency of orangutan conservation and the vital impact of tropical rainforest ecosystems. With accurate and accessible information, we encourage real actions for environmental protection.",
+    },
+    {
+        title: "Sustainable Partnership",
+        color: "text-primary-yellow",
+        desc: "We believe that knowledge is the key to positive change. Through educational programs and awareness campaigns, we seek to engage the community, especially the younger generation, in understanding the urgency of orangutan conservation and the vital impact of tropical rainforest ecosystems. With accurate and accessible information, we encourage real actions for environmental protection.",
+    },
+]
+
+export const contact = [
+    {
+        title: "International Office",
+        desc: "SavingOrangutan International Office 123 Orangutan Avenue Helsinki, FI-00100 Finland"
+    },
+    {
+        title: "Indonesia Office",
+        desc: "Organisasi SavingOrangutan Jalan Patih Rumbih No. 9 Kabupaten Kapuas, Kalimantan Tengah Indonesia 73511"
+    },
+    {
+        title: "Contact Support",
+        desc: "savingorangutanorg@example.com +123 456 7890 +62 1234 1234 1234"
+    },
+]
+
+export const team = [
+    {
+        name: "Mira Vaccaro",
+        image: `\\photos\\team-1.jpg`
+    },
+    {
+        name: "Jaxson Vetrovs",
+        image: `\\photos\\team-2.jpg`
+    },
+    {
+        name: "Ryan Bator",
+        image: `\\photos\\team-3.jpg`
+    },
+    {
+        name: "Rayna Herwitz",
+        image: `\\photos\\team-4.jpg`
+    },
+]
+
+export const helpUs = [
+    {
+        title: "Join Our Projects",
+        image: `\\photos\\project-2.jpg`,
+        desc: "Together, we can rewrite the story of these incredible creatures, securing a brighter future for orangutans and the ecosystems they call home. Take a step towards making a lasting impact – join our project today."
+    },
+    {
+        title: "Donate",
+        image: `\\photos\\donate.jpg`,
+        desc: "Your donation is an investment in a sustainable future for orangutans, other wildlife, and our planet as a whole. By giving today, you become a guardian of these majestic creatures, helping them overcome the challenges they face and securing a brighter tomorrow for generations to come."
+    },
+]

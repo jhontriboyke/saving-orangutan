@@ -7,7 +7,7 @@ import NotFound404 from './pages/NotFound404';
 
 /*
 TODO
-- Build About Us page
+- Build Project Page
 */
 
 const App = () => {

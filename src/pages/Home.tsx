@@ -1,4 +1,5 @@
 import Button from '../components/Button';
+import Section from '../components/Section';
 import { aboutUs, dangerList, news, ourProjects } from '../data/data';
 
 const Home = () => {
@@ -26,38 +27,33 @@ const Home = () => {
                 </section>
             </header>
             <main className="flex flex-col gap-5">
-                <section className="container grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
-                    <h2 className="hidden">Dangers</h2>
-                    {dangerList.map((list, index) => (
-                        <div
-                            key={index}
-                            className="flex flex-col gap-1 items-center text-center"
-                        >
-                            <img
-                                className="w-10 h-10"
-                                src={list.icon}
-                                alt={list.title}
-                            />
-                            <h3 className="font-playfair text-xl tracking-tight text-primary-red font-medium">
-                                {list.title}
-                            </h3>
-                            <p className="text-sm text-primary-black max-w-[80%] sm:max-w-full">
-                                {list.desc}
-                            </p>
-                        </div>
-                    ))}
-                </section>
-                <section className="container flex flex-col gap-8">
-                    <h2 className="heading lg:flex flex-row items-end justify-between">
-                        About Us
-                        <span className="hidden lg:block text-xs font-normal font-montserrat">
-                            See more
-                        </span>
-                    </h2>
-                    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+                <Section>
+                    <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                        {dangerList.map((list, index) => (
+                            <div
+                                key={index}
+                                className="flex flex-col gap-1 items-center text-center"
+                            >
+                                <img
+                                    className="w-10 h-10"
+                                    src={list.icon}
+                                    alt={list.title}
+                                />
+                                <h3 className="font-playfair text-xl tracking-tight text-primary-red font-medium">
+                                    {list.title}
+                                </h3>
+                                <p className="text-sm text-primary-black max-w-[80%] sm:max-w-full">
+                                    {list.desc}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                </Section>
+                <Section title="About Us">
+                    <div className="grid gap-6 lg:grid-cols-3">
                         {aboutUs.map((item, index) => (
                             <div key={index}>
-                                <div className="md:h-[12rem] lg:h-[15rem]">
+                                <div className="md:h-[15rem] lg:h-[20rem]">
                                     <img
                                         className="md:mx-auto h-full w-full object-cover"
                                         src={item.image}
@@ -73,14 +69,8 @@ const Home = () => {
                     <Button className="bg-primary-green lg:hidden">
                         See More About Us
                     </Button>
-                </section>
-                <section className="container flex flex-col gap-8">
-                    <h2 className="heading lg:flex flex-row items-end justify-between">
-                        Our Projects
-                        <span className="hidden lg:block text-xs font-normal font-montserrat">
-                            See more
-                        </span>
-                    </h2>
+                </Section>
+                <Section title="Our Projects">
                     <div className="grid gap-6 lg:gap-2">
                         {ourProjects.map((project, index) => (
                             <div
@@ -108,14 +98,8 @@ const Home = () => {
                     <Button className="bg-primary-green lg:hidden">
                         See More Our Projects
                     </Button>
-                </section>
-                <section className="container flex flex-col gap-8">
-                    <h2 className="heading lg:flex flex-row items-end justify-between">
-                        Recent News
-                        <span className="hidden lg:block text-xs font-normal font-montserrat">
-                            See more
-                        </span>
-                    </h2>
+                </Section>
+                <Section title="Recent News">
                     <div className="grid gap-6 lg:grid-cols-2">
                         {news.map((item, index) => (
                             <div
@@ -143,7 +127,7 @@ const Home = () => {
                     <Button className="bg-primary-green lg:hidden">
                         See More Recent News
                     </Button>
-                </section>
+                </Section>
             </main>
         </>
     );

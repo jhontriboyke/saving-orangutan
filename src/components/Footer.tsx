@@ -31,12 +31,14 @@ const Footer = () => {
                             <i className="fa-brands fa-youtube"></i>
                         </div>
                     </div>
-                    <div className="flex flex-col gap-2">
+                    <div className="flex flex-col gap-2 ">
                         <h2 className="text-3xl font-playfair">Contact</h2>
-                        <p className="font-light text-sm">
+                        <p className="font-light text-sm text-white">
                             savingorangutan@example.com
                         </p>
-                        <p className="font-light text-sm">+1234 1234 1234</p>
+                        <p className="font-light text-sm text-white">
+                            +1234 1234 1234
+                        </p>
                     </div>
                 </div>
             </div>
