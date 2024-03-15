@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 import Section from '../components/Section';
 import { aboutUs, dangerList, news, ourProjects } from '../data/data';
@@ -22,7 +23,7 @@ const Home = () => {
                         </span>
                     </h1>
                     <Button className="bg-primary-red hover:bg-primary-red-darker lg:text-base">
-                        Donate Now
+                        <Link to={'/donate'}>Donate Now</Link>
                     </Button>
                 </section>
             </header>

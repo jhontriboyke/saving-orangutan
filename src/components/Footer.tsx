@@ -59,7 +59,15 @@ const Footer = () => {
                 </div>
             </div>
             <p className="text-xs font-light md:text-center mt-8 text-white md:text-white/50">
-                Copyright 2024 - savingorangUtan project{' '}
+                Copyright 2024 - savingorangUtan project by{' '}
+                <a
+                    href="https://github.com/jhontriboyke"
+                    target="_blank"
+                    className="text-white font-bold"
+                    rel="noopener"
+                >
+                    Jhontri Boyke
+                </a>
             </p>
         </footer>
     );

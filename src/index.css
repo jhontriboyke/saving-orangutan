@@ -10,6 +10,16 @@ p {
     @apply text-primary-black;
 }
 
+label {
+    @apply text-primary-black font-playfair text-lg font-semibold block;
+}
+
+input,
+textarea,
+select {
+    @apply border py-1 px-2 rounded w-full;
+}
+
 .container {
     @apply xl:max-w-[1200px] mx-auto py-8  md:py-12 lg:py-14 px-6 sm:px-8 md:px-10 xl:px-0;
 }

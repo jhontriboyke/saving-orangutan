@@ -33,7 +33,7 @@ const Sidebar = ({ isShowSidebar, setIsShowSidebar }: SidebarProps) => {
                         <img src="photos\logo.png" alt="logo" />
                     </Link>
                     <Button className="bg-primary-red hover:bg-primary-red-darker">
-                        Donate Now
+                        <Link to={'/donate'}>Donate Now</Link>
                     </Button>
                     <div className="font-playfair text-xl tracking-tight flex flex-col gap-4">
                         <Link to={'/'}>Home</Link>

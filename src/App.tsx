@@ -7,11 +7,11 @@ import NotFound404 from './pages/NotFound404';
 import Project from './pages/Project';
 import Learn from './pages/Learn';
 import News from './pages/News';
+import Donate from './pages/Donate';
 // import { ChevronUpCircleIcon } from 'lucide-react';
 
 /*
 TODO
-- Design donate page
 - Design 'to top button' for smaller-screen
 */
 
@@ -26,6 +26,7 @@ const App = () => {
                     <Route path="/project" element={<Project />} />
                     <Route path="/learn" element={<Learn />} />
                     <Route path="/news" element={<News />} />
+                    <Route path="/donate" element={<Donate />} />
                     <Route path="*" element={<NotFound404 />} />
                 </Routes>
                 {/* <div className="w-16 h-16 rounded-full bg-primary-red fixed bottom-8 right-6 md:bottom-10 md:right-8 lg:hidden grid place-items-center">
