@@ -51,7 +51,20 @@ const Donate = () => {
                             </div>
                         </section>
                         <section>
-                            <div></div>
+                            <div className="flex flex-row items-center justify-center gap-8 my-6">
+                                <div className="w-16 md:w-20 lg:w-24">
+                                    <img src="\icons\qris.png" alt="qris" />
+                                </div>
+                                <div className="w-16 md:w-20 lg:w-24">
+                                    <img src="\icons\visa.svg" alt="visa" />
+                                </div>
+                                <div className="w-16 md:w-20 lg:w-24">
+                                    <img
+                                        src="\icons\mastercard.svg"
+                                        alt="mastercard"
+                                    />
+                                </div>
+                            </div>
                             <form className="flex flex-col gap-4">
                                 <div className="">
                                     <label htmlFor="cardName">
