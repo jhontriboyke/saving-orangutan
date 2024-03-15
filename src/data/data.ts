@@ -75,6 +75,17 @@ export const news = [
         title: "Meet 'Dohop' teen orangutan",
         desc: "Introducing 'Dohop': The Whimsical Teen orangutan Making Waves in Conservation"
     },
+    {
+        image: `\\photos\\news-3.jpg`,
+        title: "Enjoy the orangutan travel",
+        desc: "Embark on an amazing adventurein Tanjung Puting, Central Kalimantan, Indonesia"
+    },
+    {
+        image: `\\photos\\news-4.jpg`,
+        title: "'Borneo' lungs of the world",
+        desc: "Delve into the heart of Borneo, often referred to as the 'lungs of the world'"
+    },
+
 ]
 
 
@@ -140,5 +151,76 @@ export const helpUs = [
         title: "Donate",
         image: `\\photos\\donate.jpg`,
         desc: "Your donation is an investment in a sustainable future for orangutans, other wildlife, and our planet as a whole. By giving today, you become a guardian of these majestic creatures, helping them overcome the challenges they face and securing a brighter tomorrow for generations to come."
+    },
+]
+
+export const projectPage = [
+    {
+        title: "Summer Program",
+        img: `\\photos\\project-1.jpg`,
+        desc: "Join our Summer Program to save endangered orangutans. Experience hands-on conservation, habitat preservation, and wildlife education in Indonesia's rainforests. Work with experts and communities to protect orangutans. Make a unique impact and lasting memories. Be a force for change this summer!"
+    },
+    {
+        title: "Volunteer",
+        img: `\\photos\\project-2.jpg`,
+        desc: "Be a catalyst for change. Jooin our Volunteer Program to save orangutsan. Engage in hands-on conservation, habitat restoration, and education in Indonesia. Work with local experts for real impact. Join our volunteer community and make a difference!"
+    },
+    {
+        title: "Rumah Orangutan",
+        img: `\\photos\\about-1.jpg`,
+        desc: "Our 'Rumah Orangutan' project offers more than just shelter - its's a sanctuary of hope for orangutans. We're building a safe haven and rehabilitation center where these magnificent creatures heal and gear up for their return to the wild. With your support we're crafting not only shelters, but futures, giving orangutans a second shot at thriving in their nautral homes. Join our mission to provide a loving home, secure their survival, and brighten their future."
+    },
+    {
+        title: "Mengajar",
+        img: `\\photos\\project-3.jpg`,
+        desc: "Our 'Mengajar' program spreads vital insights on orangutan conservation. It's an education journey for students and the community, blending knowledge, interaction, and action. 'Mengajar' doesn't just raise awareness about orangutan challenges - it sparks positive change through education. Together, we'll delve into forest ecosystems, pinpoint threats, and design steps to secure orangutans' future. With expert guidance and enthusiastic interaction, 'Mengajar' delivers a powerful experience. Be part of this crucial mission to nurture a caring generation, poised to act for nature's preservation and the orangutans' future."
+    },
+]
+
+export const orangutanFacts = [
+    {
+        title: "Social Life",
+        desc: "Orangutans are social beings that live alone or in small groups. They have various unique expressions and forms of communication."
+    },
+    {
+        title: "Fruit Eaters",
+        desc: "Orangutans are essential fruit eaters in the forest ecosystem. They help spread plant seeds, contributin to maintaining the ecosystem balance."
+    },
+    {
+        title: "Threats of Extinction",
+        desc: "Deforestation, illegal hunting, and habitat loss are serious threats to orangutans. Their population continues to decline, putting them at risk of extinction in the near future."
+    },
+]
+
+export const whyOrangutansEndangered = [
+    {
+        icon: `\\icons\\forest.svg`,
+        desc: "The orangutan's habitat is continuosly disappearing due to illegal logging and forest clearance for agriculture.",
+    },
+    {
+        icon: `\\icons\\dollar.svg`,
+        desc: "The illegal trade of orangutans as pets or touris attractions poses a significant threat to their population.",
+    },
+    {
+        icon: `\\icons\\oil.svg`,
+        desc: "Palm oil plantations destroy the natural habitat of orangutans. Unsustainable palm oil usage also negatively impacts their population.",
+    },
+]
+
+export const howToHelpThem = [
+    {
+        image: "\\photos\\project-2.jpg",
+        title: "Become Volunteer",
+        desc: "Join the orangutan conservation movement by becoming a volunteer in our organization. By contributing directly, you can make a real impact on the sustainability of orangutans."
+    },
+    {
+        image: "\\photos\\contribute.jpg",
+        title: "Contribute our Projects",
+        desc: "By joining our projects, you're not only supporting orangutan rescue efforts, but also gaining firsthand experience in conservation work. Together, we can make a significant impact and secure a better future for orangutans."
+    },
+    {
+        image: "\\photos\\share.jpg",
+        title: "Share us to the world",
+        desc: "By sharing our initiatives, stories, and goals, you amplify our message and inspire others to take action. Your online presence can play a crucial role in building a global community dedicated to orangutan preservation. Join us in spreading the word and let's make a lasting impact together."
     },
 ]

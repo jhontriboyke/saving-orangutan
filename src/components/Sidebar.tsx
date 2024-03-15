@@ -18,7 +18,7 @@ const Sidebar = ({ isShowSidebar, setIsShowSidebar }: SidebarProps) => {
                 className="inset-0 absolute bg-black/30 w-[100vw]"
                 onClick={() => setIsShowSidebar(false)}
             />
-            <div className="bg-primary-green w-[200px] h-full z-[10] relative p-5 flex flex-col gap-10">
+            <div className="bg-primary-green w-[200px] h-full z-[10] relative p-5 flex flex-col gap-4">
                 <div title="close-sidebar" className="w-full h-[2rem]">
                     <XIcon
                         className="ml-auto cursor-pointer"
@@ -27,7 +27,7 @@ const Sidebar = ({ isShowSidebar, setIsShowSidebar }: SidebarProps) => {
                 </div>
                 <div
                     onClick={() => setIsShowSidebar(false)}
-                    className="flex flex-col gap-8"
+                    className="flex flex-col gap-6"
                 >
                     <Link to={'/'}>
                         <img src="photos\logo.png" alt="logo" />
@@ -35,7 +35,7 @@ const Sidebar = ({ isShowSidebar, setIsShowSidebar }: SidebarProps) => {
                     <Button className="bg-primary-red hover:bg-primary-red-darker">
                         Donate Now
                     </Button>
-                    <div className="font-playfair text-xl tracking-tight flex flex-col gap-6">
+                    <div className="font-playfair text-xl tracking-tight flex flex-col gap-4">
                         <Link to={'/'}>Home</Link>
                         <Link to={'/about'}>About Us</Link>
                         <Link to={'/project'}>Projects</Link>

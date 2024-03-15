@@ -101,7 +101,7 @@ const Home = () => {
                 </Section>
                 <Section title="Recent News">
                     <div className="grid gap-6 lg:grid-cols-2">
-                        {news.map((item, index) => (
+                        {news.slice(0, 2).map((item, index) => (
                             <div
                                 key={index}
                                 className="flex gap-3 lg:gap-0 cursor-pointer"
