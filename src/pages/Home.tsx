@@ -49,7 +49,7 @@ const Home = () => {
                         ))}
                     </div>
                 </Section>
-                <Section title="About Us">
+                <Section title="About Us" more={'about'}>
                     <div className="grid gap-6 lg:grid-cols-3">
                         {aboutUs.map((item, index) => (
                             <div key={index}>
@@ -70,7 +70,7 @@ const Home = () => {
                         See More About Us
                     </Button>
                 </Section>
-                <Section title="Our Projects">
+                <Section title="Our Projects" more={'project'}>
                     <div className="grid gap-6 lg:gap-2">
                         {ourProjects.map((project, index) => (
                             <div
@@ -99,7 +99,7 @@ const Home = () => {
                         See More Our Projects
                     </Button>
                 </Section>
-                <Section title="Recent News">
+                <Section title="Recent News" more={'news'}>
                     <div className="grid gap-6 lg:grid-cols-2">
                         {news.slice(0, 2).map((item, index) => (
                             <div
