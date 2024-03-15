@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, useLocation } from 'react-router-dom';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -8,14 +8,33 @@ import Project from './pages/Project';
 import Learn from './pages/Learn';
 import News from './pages/News';
 import Donate from './pages/Donate';
-// import { ChevronUpCircleIcon } from 'lucide-react';
-
-/*
-TODO
-- Design 'to top button' for smaller-screen
-*/
+import { useEffect, useLayoutEffect, useState } from 'react';
+import { ChevronUpCircleIcon } from 'lucide-react';
 
 const App = () => {
+    const [isVisible, setIsVisible] = useState(false);
+    const location = useLocation();
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.scrollY > 200) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener('scroll', toggleVisibility);
+
+        return () => {
+            window.removeEventListener('scroll', toggleVisibility);
+        };
+    }, []);
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    }, [location.pathname]);
+
     return (
         <div className="flex flex-col min-h-screen">
             <Navbar />
@@ -29,9 +48,15 @@ const App = () => {
                     <Route path="/donate" element={<Donate />} />
                     <Route path="*" element={<NotFound404 />} />
                 </Routes>
-                {/* <div className="w-16 h-16 rounded-full bg-primary-red fixed bottom-8 right-6 md:bottom-10 md:right-8 lg:hidden grid place-items-center">
+
+                <div
+                    onClick={() => window.scrollTo(0, 0)}
+                    className={`${
+                        isVisible ? 'opacity-100' : 'opacity-0 cursor-auto'
+                    } transition-all duration-500 w-16 h-16 rounded-full bg-primary-red fixed bottom-8 right-6 md:bottom-10 md:right-8 grid place-items-center cursor-pointer`}
+                >
                     <ChevronUpCircleIcon className="stroke-white w-8 h-8" />
-                </div> */}
+                </div>
             </div>
             <Footer />
         </div>
