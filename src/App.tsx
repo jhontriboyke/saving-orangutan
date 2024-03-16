@@ -53,7 +53,7 @@ const App = () => {
                     onClick={() => window.scrollTo(0, 0)}
                     className={`${
                         isVisible ? 'opacity-100' : 'opacity-0 cursor-auto'
-                    } transition-all duration-500 w-16 h-16 rounded-full bg-primary-red fixed bottom-8 right-6 md:bottom-10 md:right-8 grid place-items-center cursor-pointer`}
+                    } transition-all duration-500 w-16 h-16 rounded-full bg-primary-red fixed bottom-8 right-6 md:bottom-10 md:right-8 grid place-items-center cursor-pointer md:hidden`}
                 >
                     <ChevronUpCircleIcon className="stroke-white w-8 h-8" />
                 </div>
