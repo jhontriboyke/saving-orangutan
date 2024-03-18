@@ -23,7 +23,7 @@ SavingOrangutan website just a mockup and it don't have fully functionality dona
 
 ## Screenshots
 
-![Figma Prototype Screenshot](https://lh4.googleusercontent.com/MrqGspa9TN0ZxKVbglRF7WWWk8su7Mn6vXwe16CKHPROgrPRYV1jqzQf8ysevCDfvqMdiitAo07MAWsuLv6fYKd89cIsTT_qHiL6EPryEjwsUs0Kb7KHgsdVU4nXPGIe1g=w1280)
+![Figma Prototype Screenshot](./public/screenshot/figma-prototype.png)
 
 ![Web Screenshot](./public/screenshot/screenshot-1.png)
 ![Web Screenshot](./public/screenshot/screenshot-2.png)
